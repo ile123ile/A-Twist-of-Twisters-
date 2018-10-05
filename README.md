@@ -6,3 +6,7 @@ Anamaria
 ## Credits
 
 TBD
+
+Peter - Coding
+
+Eli - GOD
