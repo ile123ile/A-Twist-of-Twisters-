@@ -278,11 +278,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 114618301170080196, guid: 7cca17ce79dc6404e91d1c8bffd5fd4b,
-        type: 2}
-      propertyPath: jumpForce
-      value: 5
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cca17ce79dc6404e91d1c8bffd5fd4b, type: 2}
   m_IsPrefabAsset: 0
@@ -532,7 +527,7 @@ Prefab:
       objectReference: {fileID: 2100000, guid: 83bdd4fb404f7f84a859926aa9c5e7a7, type: 2}
     - target: {fileID: 1851134968537214, guid: 663d88e33fe013f4c8a279b8c48beb94, type: 2}
       propertyPath: m_Name
-      value: Platform (1)
+      value: Platform
       objectReference: {fileID: 0}
     - target: {fileID: 4923718634777680, guid: 663d88e33fe013f4c8a279b8c48beb94, type: 2}
       propertyPath: m_LocalScale.z
