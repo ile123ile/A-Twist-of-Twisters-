@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641234, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -234,6 +234,11 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 663d88e33fe013f4c8a279b8c48beb94, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &303257864 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1888165996219162, guid: 7cca17ce79dc6404e91d1c8bffd5fd4b,
+    type: 2}
+  m_PrefabInternal: {fileID: 504727517}
 --- !u!1001 &504727517
 Prefab:
   m_ObjectHideFlags: 0
@@ -273,11 +278,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 23038901283782624, guid: 7cca17ce79dc6404e91d1c8bffd5fd4b,
+    - target: {fileID: 114618301170080196, guid: 7cca17ce79dc6404e91d1c8bffd5fd4b,
         type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 8f2feeee54514884d8e39a1a51907acc, type: 2}
+      propertyPath: jumpForce
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cca17ce79dc6404e91d1c8bffd5fd4b, type: 2}
   m_IsPrefabAsset: 0
@@ -401,6 +406,7 @@ GameObject:
   - component: {fileID: 1265009324}
   - component: {fileID: 1265009323}
   - component: {fileID: 1265009322}
+  - component: {fileID: 1265009325}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -468,6 +474,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1265009325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1265009321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec1468cc2ee6c4dc69b2ec98de91660b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 303257864}
 --- !u!1001 &1469308375
 Prefab:
   m_ObjectHideFlags: 0
