@@ -37,7 +37,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1010262067901918}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.15, y: -3.336, z: 8.526}
+  m_LocalPosition: {x: -0.049431324, y: -2.21, z: -1.8879142}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -108,3 +108,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32ddcc1241a9484f8d72b3e4d540ff0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  s: WinScreen
