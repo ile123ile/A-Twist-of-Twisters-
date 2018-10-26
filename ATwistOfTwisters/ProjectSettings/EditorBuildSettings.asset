@@ -4,4 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/PorridgeScene.unity
+    guid: 88276d12c58d59346a1d5b33efd62b89
+  - enabled: 1
+    path: Assets/Scenes/Porridge Arena.unity
+    guid: 07974baf379f3d247b4673bc3c36f63b
+  - enabled: 1
+    path: Assets/Scenes/Porridge Corridor (of tables).unity
+    guid: 2f585133dce77e54fabfe9e22947daf2
+  - enabled: 1
+    path: Assets/Scenes/WinScreen.unity
+    guid: 87083690ac96ae547a7d407adb0f50d7
+  m_configObjects: {}

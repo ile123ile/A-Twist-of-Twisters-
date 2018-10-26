@@ -1,11 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class WinCondition : MonoBehaviour {
 
     //instance variable that we set to Unity, later used when collided
-
+    public string s;
     // Use this for initialization
     void Start () {
 		
@@ -16,11 +17,12 @@ public class WinCondition : MonoBehaviour {
 		
 	}
 
-    private void OnCollisionEnter(Collision collision)
+    public void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "Player")
         {
-            Debug.Log("hello!", gameObject);
+            SceneManager.LoadScene(s);
         }
     }
+
 }
