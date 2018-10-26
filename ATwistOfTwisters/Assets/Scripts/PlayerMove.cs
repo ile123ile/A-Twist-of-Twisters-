@@ -8,6 +8,7 @@ public class PlayerMove : MonoBehaviour {
     public float jumpForce;
     private Rigidbody rb;
     private bool isGrounded;
+    public float sqrMaxVelocity;
 
 	// Use this for initialization
 	void Start () {
@@ -20,7 +21,14 @@ public class PlayerMove : MonoBehaviour {
         float moveVertical = Input.GetAxis("Vertical");
 
         Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
-        rb.AddForce(movement * speed);
+
+   
+        if (rb.velocity.sqrMagnitude < sqrMaxVelocity)
+        {
+            rb.AddForce(movement * speed);
+        }
+     
+
 
         if (Input.GetKeyDown("space") && isGrounded == true){
             rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
