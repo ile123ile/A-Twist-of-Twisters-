@@ -175,13 +175,14 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 188537242}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 88da4455d7e927f48ab54e7989ba5940, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
   jumpForce: 0
+  sqrMaxVelocity: 0
 --- !u!1001 &738479944
 Prefab:
   m_ObjectHideFlags: 0
@@ -391,6 +392,16 @@ Prefab:
         type: 2}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114742418442770618, guid: 7cca17ce79dc6404e91d1c8bffd5fd4b,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114618301170080196, guid: 7cca17ce79dc6404e91d1c8bffd5fd4b,
+        type: 2}
+      propertyPath: sqrMaxVelocity
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cca17ce79dc6404e91d1c8bffd5fd4b, type: 2}
