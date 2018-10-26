@@ -72,6 +72,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   jumpForce: 5
+  sqrMaxVelocity: 50
 --- !u!114 &114742418442770618
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -85,6 +86,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   jumpForce: 0
+  sqrMaxVelocity: 0
 --- !u!136 &136340814945451110
 CapsuleCollider:
   m_ObjectHideFlags: 1
