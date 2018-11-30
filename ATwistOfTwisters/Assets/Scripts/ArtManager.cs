@@ -29,6 +29,14 @@ public class ArtManager : DeathHandler {
         {
             SetSprite(idle);
         }
+        if(rb.velocity.x < 0)
+        {
+            sr.flipX = true;
+        }
+        else
+        {
+            sr.flipX = false;
+        }
 	}
 
     public override void Die()
