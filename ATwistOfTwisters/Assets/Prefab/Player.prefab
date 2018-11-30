@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 114618301170080196}
   - component: {fileID: 212409782893875684}
   - component: {fileID: 114671944595131480}
+  - component: {fileID: 114736447729553406}
   m_Layer: 9
   m_Name: Player
   m_TagString: Player
@@ -38,7 +39,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1888165996219162}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.67, y: -0.14, z: -4.29}
+  m_LocalPosition: {x: 0, y: 2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -85,6 +86,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d7ba2d8a586aac449ccd8843128259d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114736447729553406
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1888165996219162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b4d4218d9dda304195bc17c18981a9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  idle: {fileID: 21300000, guid: 2f15981c05e72491094e71acf2a20083, type: 3}
+  falling: {fileID: 21300000, guid: d0d17626b40ee472d8f7cd0ec0c7312a, type: 3}
+  moveThreshold: 5
 --- !u!136 &136340814945451110
 CapsuleCollider:
   m_ObjectHideFlags: 1
