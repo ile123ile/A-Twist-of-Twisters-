@@ -38,11 +38,7 @@ public class PlayerMove : MonoBehaviour {
 
         if(transform.position.y < deathHeight)
         {
-            DeathHandler deathHandler = gameObject.GetComponent<DeathHandler>();
-            if(deathHandler != null)
-            {
-                deathHandler.Die();
-            }
+            DeathHandler.HandleDeath(gameObject);
         }
     }
 
