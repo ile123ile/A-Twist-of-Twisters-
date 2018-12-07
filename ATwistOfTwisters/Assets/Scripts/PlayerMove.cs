@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PlayerMove : MonoBehaviour {
 
-    public float deathHeight;
     public float speed;
     public float jumpForce;
     private Rigidbody rb;
@@ -34,15 +33,6 @@ public class PlayerMove : MonoBehaviour {
 
         if (Input.GetKeyDown("space") && isGrounded == true){
             rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
-        }
-
-        if(transform.position.y < deathHeight)
-        {
-            DeathHandler deathHandler = gameObject.GetComponent<DeathHandler>();
-            if(deathHandler != null)
-            {
-                deathHandler.Die();
-            }
         }
     }
 
