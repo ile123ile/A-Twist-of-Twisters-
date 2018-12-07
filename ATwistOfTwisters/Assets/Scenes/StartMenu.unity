@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -151,6 +151,11 @@ Prefab:
     - target: {fileID: 4870152090789290, guid: a9fb9f4045651a34a83d7d585a278a82, type: 2}
       propertyPath: m_RootOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114900951905028450, guid: a9fb9f4045651a34a83d7d585a278a82,
+        type: 2}
+      propertyPath: level
+      value: Porridge Corridor (of tables)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a9fb9f4045651a34a83d7d585a278a82, type: 2}
@@ -533,7 +538,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-371062
+  m_Name: pb_Mesh-8626
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
