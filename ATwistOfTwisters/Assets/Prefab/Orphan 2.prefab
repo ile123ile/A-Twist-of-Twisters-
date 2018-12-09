@@ -27,7 +27,7 @@ GameObject:
   - component: {fileID: 114454732188483596}
   - component: {fileID: 114252858554086782}
   m_Layer: 8
-  m_Name: Orphan
+  m_Name: Orphan 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
